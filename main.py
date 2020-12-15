@@ -35,4 +35,5 @@ def main(number_of_playres):
 
     
 if __name__ == "__main__":
-    main(19)
+    main(23)
+

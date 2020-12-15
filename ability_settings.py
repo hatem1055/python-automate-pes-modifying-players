@@ -16,8 +16,14 @@ def ability_settings():
     # team work
     likeLongPress(Keys.RIGHT,30)
     press(Keys.ENTER)
+    # navigate to form
+    press(Keys.DOWN)
+    press(Keys.ENTER)
+    #form
+    likeLongPress(Keys.RIGHT,8)
+    press(Keys.ENTER)
     # save
-    more_than_one_press(Keys.DOWN,4)
+    more_than_one_press(Keys.DOWN,3)
     press(Keys.ENTER)
     
 
